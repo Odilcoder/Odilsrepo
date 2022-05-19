@@ -1,0 +1,242 @@
+body{
+    margin: 0;
+}
+
+#qator1{
+    z-index: 2;
+    padding: 5px;
+    background-color: rgb(19, 25, 33);
+    display: flex;
+    height: 60px;
+    min-width: fit-content;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+#qator1 a{
+    height: 46px;
+    background-color: rgb(19, 25, 33);
+    border-radius: 1px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    margin: 2px;
+    box-sizing: border-box;
+    /*outline: 1px solid white;*/
+}
+
+#qator1 a:hover{
+    outline: 1px solid white;
+}
+
+#quti1{
+    width: 110px;
+    background-image: url('amazon.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#quti2{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 106px;
+    background-color: rgb(19, 25, 33) !important;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px 3px;
+}
+
+#location-icon{
+    width: 16px;
+    height: 19px;
+    color: white;
+    margin: 6px 2px 0 7px;
+}
+
+#manzil{
+
+}
+
+#deliver-to{
+    font-size: 0.7em;
+    line-height: 1.3em;
+}
+
+#uzbekistan{
+    line-height: 1.3em;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+#inputla1{
+    margin: 10px;
+    flex-grow: 1;
+    display: flex;
+    border-radius: 0;
+    height: 40px;
+    min-width: 450px;
+}
+
+#all{
+    width: 56px;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+    display: flex;
+    border-right: 1px solid lightgray;
+    background-color: rgb(243, 243, 243);
+    border-radius: 4px 0 0 4px;
+}
+
+#all:hover, #all:hover #strelka{
+    color: black;
+    background-color: rgb(218, 218, 218);
+    
+}
+
+#all:focus{
+    outline: 3px solid blue;
+}
+
+#sel1{
+    padding: 0 10px;
+    width: 56px;
+    border: none;
+    color: rgb(102, 102, 102);
+    outline: none;
+    border-right: none;
+    background-color: transparent;
+    font-size: 12px;
+}
+
+#strelka{
+    border-right: 8px solid lightgrey;
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: none;
+    border: none;
+    box-sizing: border-box;
+    width: 22px;
+    height: 100%;
+    padding: 3px 0;
+    background-color: rgb(243, 243, 243);
+}
+
+#strelka img{
+    height: 100%;
+    border: none;
+    padding: 15px 0 5px 3px;
+}
+
+#yashirin{
+    opacity: 0;
+    margin-left: 238px;
+    box-sizing: border-box;
+    pointer-events: none;
+    display: hidden;
+    background-color: gray;
+    padding: 0 27px 0 15px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+}
+
+#text-maydon{
+    z-index: 3;
+    box-sizing: border-box;
+    height: 100%;
+    border: none;
+    width: calc(100% - 96px);
+    outline: none;
+    padding: 0 0 2px 9px;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lupacha{
+    background-color: rgb(254, 189, 105);
+    display: inline-block;
+    width: 44px;
+    border-radius: 0 4px 4px 0;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    text-align: center;
+}
+
+
+
+#lupacha:hover{
+    background-color: rgb(243, 168, 71);
+}
+#lupacha i{
+    font-size: 22px;
+    margin: 9px 0;
+}
+
+#quti3{
+    position: relative;
+    width: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#usa{
+    padding: 10px 0px 0px 8px;
+    width: 23px;
+    height: 17px;
+}
+
+#strlka{
+    padding: 18px 5px 0px 4px;
+    height: 5px;
+    width: 10px;
+}
+
+#quti3:focus{
+    outline: 1px solid white;
+}
+
+#quti3:focus #til-menyusi, #quti3:hover #til-menyusi{
+    top: 46px;
+    left: -3px;
+    position: absolute;
+    height: 470px;
+    width: 235px;
+    background-color: white;
+    z-index: 10;
+    cursor: default;
+    border-radius: 3px;
+    transition-delay: 0.4s;
+}
+
+#overlay{
+    display: hidden;
+    transition-delay: 0.4s;
+}
+
+#quti3:focus ~ #overlay, #quti3:hover ~ #overlay{
+    pointer-events: all;
+    opacity: 0.5;
+    position: absolute;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    z-index: 1;
+    transition-delay: 0.4s;
+}
+
+#quti4{
+    width: 120px;
+}
+
+#quti5{
+    width: 75px;
+}
+
+#quti6{
+    width: 85px
+}
